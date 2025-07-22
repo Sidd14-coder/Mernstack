@@ -42,8 +42,21 @@
 // console.log(acTemp)
 // console.log(typeof acTemp)
 
-let id = "123";
-let newId = Number(id);
+// let id = "123";
+// let newId = Number(id);
 
-console.log(newId);
-console.log(typeof newId)
+// console.log(newId);
+// console.log(typeof newId)
+
+// let isLoggedIn = true
+// isLoggedIn = Number(isLoggedIn);
+
+// console.log(isLoggedIn);
+// console.log(typeof isLoggedIn)
+
+// let user = "Ganesh";
+// let age = 34;
+// let email = "sidd73129@gmail.com"
+// // console.log("User is",user,", Age is",age,"and Email is",email);
+// console.log(`user is ${user}, age is ${age} and email is ${email}`);
+
