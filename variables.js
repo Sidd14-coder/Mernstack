@@ -38,7 +38,12 @@
 // console.log(user.age);
 // console.log(user["userName"])
 
-let acTemp = null;
-console.log(acTemp)
-console.log(typeof acTemp)
+// let acTemp = null;
+// console.log(acTemp)
+// console.log(typeof acTemp)
 
+let id = "123";
+let newId = Number(id);
+
+console.log(newId);
+console.log(typeof newId)
