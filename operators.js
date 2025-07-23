@@ -36,3 +36,14 @@
 // console.log(null==undefined);
 // console.log(null===undefined);
 
+// Ternary Operators
+// let age=56;
+
+// let result=(age>=18)?"Adult":"Minor";
+// console.log(result);
+
+// Nullish Coalescing Operator :- It is used to provide a default value variable is null or undefined
+// let num = undefined ?? 10;
+// console.log(num);
+
+
