@@ -3,51 +3,85 @@
 // 2. for...in
 // 3. forEach
 
-// function printName(name)
+
+// let user = "ganesh";
+// for(let i=0;i<user.length;i++)
 // {
-//     return console.log(`Hello, How are you ${name}`);
+//     console.log(user[i]);    
 // }
 
-// printName("Sahil");
-// printName("Siddhesh");
-// printName("Ayush");
-// printName("Parth");
-
-// function addNum(num1, num2)
-// {
-//     let n1 = Number(num1);
-//     let n2 = Number(num2);
-//     console.log(isNaN(num1));
-//     console.log(isNaN(num2));
-//     if(isNaN(n1) || isNaN(n2))
-//     {
-//         console.log("Enter your proper number: ");
-//     }
-//     return n1+n2;
-
+// for...of loop = It gives value. It is applicable for string, array, map (Build-in object). Not Applcable for object.
+// Syntax :- for(const ______ of _________){
+//    console.log(_)
 // }
-// console.log(addNum("10","20abc"));
+// let user = "ganesh";
+// for(const char of user)
+// {
+//     console.log(char);
+// }
 
-// let userName = "Sai";
-// let userName1 = new String("Sai");
-// console.log(typeof userName);
-// console.log(typeof userName1);
+// Scope = It determines the accesssbility (visibility) of variables.
+// Types of Scopes :- Global Scope, Local Scope
+// Types of Local Scope :- function scope, block scope
+// Variables declared outside of any function or block are in the global scope
 
-// let user = "  sai   ";
-// console.log(user.toUpperCase());
-// console.log(user.toLowerCase());
-// console.log(user.charAt(3));
-// console.log(user.indexOf('ai'));
-// console.log(user.trim().length);
-// console.log(user.replace("i","d"));
-// console.log(user.includes('sa'));
+// let globalVar = "I'm global";
 
-// let userName = "sai$deep$ram$shyam$karan";
+// const arrayName = [1,2,3,4];
+// console.log(typeof const);
+// console.log(const arrayName = new [1,2,3,4]);
 
-// console.log(userName.split('$'));
+// const user = [10,20,30,40];
+// let user = "saideep";
+// const user1 = [1,2,3,4];
+// console.log(user.concat(user1));
+// console.log([...user,...user1]);
+// console.log(Array.isArray(user1));
+// console.log(Array.isArray(user));
+// console.log(Array.from(user));
 
-// let user = "siddhesh";
-// console.log(user.substring(-4,5));
-// console.log(user.slice(-4,5));
+// let num=10;
+// let num1=20;
+// let num2=30;
+// console.log(Array.of(num,num1,num2));
 
-let userName = "SAIDEEP"
+// Slicing in array
+// console.log(user1.slice(0,3));
+// console.log(user1.splice(0,3));
+
+// Slice = Used to extract a portion of array without modifying the original array
+// const user = [10,20,30,40,50,60,70];
+// console.log("Before ", user);
+// const newArr = user.slice(0,3);
+// console.log("After ", newArr);
+// console.log("After ", user);
+
+// Splice = It modifies original array
+const userName1 = [10,20,30,40,50,60,70];
+// console.log("Before ", userName1);
+// const newArr1 = userName1.splice(0,3);
+// console.log("After ", newArr1);
+// console.log("After ", userName1);
+
+
+// for...of Array
+// for(const arr of userName1)
+// {
+//      console.log(arr);
+// }
+
+// for...in = It gives key(indexVal). It is applicable for object and array. Not applicable for map(Build-in object)
+const userId = [10,20,30,40,50];
+// for(i=0;i<userId.length;i++)
+// {
+//     console.log(userId[i]+5);
+// }
+
+// console.log(userId.forEach(function add5(val)
+// {
+//     console.log(val+5);
+// }));
+
+console.log(userId.forEach((val) => {
+    console.log(val + 5);
+}))
