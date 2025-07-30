@@ -21,19 +21,19 @@
 
 // const isEven = (s) => {
 //     if (s%2===0){
-//         return true;
+//         return true;p
 //     } else {
 //         return false;
 //     }
 // }
 // console.log(isEven(6));
-// const isEven = num => num % 2 === 0;
-// console.log(isEven(6));
+const isEven = num => num % 2 === 0;
+console.log(isEven(6));
 
 // const person = {
 //     name : "Siddhesh",
 //     greet : () => {
-//         console.log("Hello, "+this.name);
+//         return `hello world,${this.name}`;
 //     }
 // };
 // console.log(person.greet())
@@ -72,4 +72,4 @@
 // }
 // console.log(welcome());
 // const welcome = (user = "Guest") => "Welcome, " + user;
-// console.log(welcome());+ 
+// console.log(welcome());  

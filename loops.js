@@ -50,19 +50,18 @@
 // console.log(user1.splice(0,3));
 
 // Slice = Used to extract a portion of array without modifying the original array
-// const user = [10,20,30,40,50,60,70];
+// const user = [10,30,40,20,30];
 // console.log("Before ", user);
-// const newArr = user.slice(0,3);
+// const newArr = user.slice(-2,-4);
 // console.log("After ", newArr);
 // console.log("After ", user);
 
 // Splice = It modifies original array
-const userName1 = [10,20,30,40,50,60,70];
-// console.log("Before ", userName1);
-// const newArr1 = userName1.splice(0,3);
-// console.log("After ", newArr1);
-// console.log("After ", userName1);
-
+const userName1 = [10,20,30,40,50];
+console.log("Before ", userName1);
+const newArr1 = userName1.splice(1,3,60);
+console.log("After ", newArr1);
+console.log("After Splice", userName1);
 
 // for...of Array
 // for(const arr of userName1)
@@ -82,6 +81,6 @@ const userId = [10,20,30,40,50];
 //     console.log(val+5);
 // }));
 
-console.log(userId.forEach((val) => {
-    console.log(val + 5);
-}))
+// console.log(userId.forEach((val) => {
+//     console.log(val + 5);
+// }))
