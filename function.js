@@ -189,7 +189,7 @@
 
 // console.log(count);
 
-const arr = [10,20,30,40,50];
-const add = arr.reduce((acc,num) => (acc + num),0);
-console.log(add);
+// const arr = [10,20,30,40,50];
+// const add = arr.reduce((acc,num) => (acc + num),0);
+// console.log(add);
 
