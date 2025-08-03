@@ -100,8 +100,8 @@
 // console.log(newarr);
 
 // const stringArr = ["sai","ram","shyam","ishwar"];
-// const newstringArr = stringArr.filter((str)=>(str.length>3));
-// console.log(newstringArr);
+const newstringArr = stringArr.filter((str)=>(str.length>3));
+console.log(newstringArr);
 
 // const arr = [1,2,3,4,5,6];
 // const newarr = [];
@@ -120,8 +120,8 @@
 // console.log(newstringArr);
 
 // const studentInfo = {
-    //     userName : "Sai",
-    //     age : 23,
+//         userName : "Sai",
+//         age : 23,
 //     isLoggedIn : true
 // }
 
@@ -130,7 +130,7 @@
 // console.log(Object.values(studentInfo));
 // console.log(studentInfo.userName = "saideep");
 // console.log(studentInfo.age = "20");
-// // console.log(studentInfo["userName"]);
+// console.log(studentInfo["userName"]);
 // console.log(studentInfo.email = "sai@gmail.com")
 // console.log(Object.freeze(studentInfo));
 // console.log(studentInfo.age = "25");
